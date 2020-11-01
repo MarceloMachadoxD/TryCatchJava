@@ -4,6 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.InputMismatchException;
+import java.util.Random;
 import java.util.Scanner;
 
 import model.entities.Reservation;
@@ -16,6 +17,8 @@ public class Program {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		try {
 
+			
+			
 			System.out.print("Room Number: ");
 			int roomNumber = sc.nextInt();
 
